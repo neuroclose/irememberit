@@ -1,9 +1,7 @@
 {
   "cli": { "version": ">= 3.18.0" },
   "build": {
-    "production": {
-      "ios": { "workflow": "managed" }
-    }
+    "production": {}
   },
   "submit": {
     "production": {}
