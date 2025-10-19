@@ -10,6 +10,12 @@
         "NSMicrophoneUsageDescription": "Allow microphone for voice features.",
         "NSPhotoLibraryUsageDescription": "Allow access to pick photos for uploads."
       }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "40515b4c-963a-4838-811c-89f601936bb8"
+      }
     }
   }
 }
+
