@@ -1,16 +1,5 @@
 {
-  "cli": {
-    "version": ">= 3.18.0",
-    "appVersionSource": "remote"
-  },
-  "build": {
-    "production": {
-      "ios": {
-        "image": "macos-15-xcode-16"
-      }
-    }
-  },
-  "submit": {
-    "production": {}
-  }
+  "cli": { "version": ">= 3.18.0", "appVersionSource": "remote" },
+  "build": { "production": {} },
+  "submit": { "production": {} }
 }
