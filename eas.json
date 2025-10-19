@@ -1,5 +1,9 @@
 {
   "cli": { "version": ">= 3.18.0", "appVersionSource": "remote" },
-  "build": { "production": {} },
+  "build": {
+    "production": {
+      "ios": { "image": "macos-sequoia-15.6-xcode-16.4" }
+    }
+  },
   "submit": { "production": {} }
 }
