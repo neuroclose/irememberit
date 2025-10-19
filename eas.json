@@ -1,9 +1,7 @@
 {
   "cli": { "version": ">= 3.18.0" },
   "build": {
-    "production": {
-      "installCommand": "yarn install --ignore-engines"
-    }
+    "production": {}
   },
   "submit": {
     "production": {}
