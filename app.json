@@ -8,9 +8,19 @@
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
-        "NSCameraUsageDescription": "Allow camera for uploads and scanning."
+        "NSCameraUsageDescription": "Allow camera for uploads and scanning.",
+        "NSMicrophoneUsageDescription": "Allow microphone for voice practice and audio capture.",
+        "NSSpeechRecognitionUsageDescription": "Allow speech recognition to check spoken answers."
       }
     },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "mode": "production"
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "40515b4c-963a-4838-811c-89f601936bb8"
@@ -18,4 +28,3 @@
     }
   }
 }
-
