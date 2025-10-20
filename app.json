@@ -1,14 +1,13 @@
 {
   "expo": {
     "name": "iRememberIT",
-    "slug": "replit-wrapper",
+    "slug": "irememberit",
+    "scheme": "irememberit",
     "ios": {
       "bundleIdentifier": "com.neuroclose.irememberit",
       "supportsTablet": true,
       "infoPlist": {
-        "NSCameraUsageDescription": "Allow camera for uploads and scanning.",
-        "NSMicrophoneUsageDescription": "Allow microphone for voice features.",
-        "NSPhotoLibraryUsageDescription": "Allow access to pick photos for uploads."
+        "NSCameraUsageDescription": "Allow camera for uploads and scanning."
       }
     },
     "extra": {
