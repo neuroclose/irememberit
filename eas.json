@@ -1,12 +1,16 @@
 {
-  "cli": { "version": ">= 3.18.0", "appVersionSource": "remote" },
+  "cli": {
+    "version": ">= 3.18.0",
+    "appVersionSource": "remote"
+  },
   "build": {
     "production": {
-      "ios": { "image": "macos-sequoia-15.6-xcode-16.4" },
-      "hooks": {
-        "post-install": "npm i --no-save expo-notifications"
+      "ios": {
+        "image": "macos-sequoia-15.6-xcode-16.4"
       }
     }
   },
-  "submit": { "production": {} }
+  "submit": {
+    "production": {}
+  }
 }
